@@ -10,7 +10,7 @@ replacing 4 with however many processors you have/want to use
 from mpi4py import MPI
 
 MANAGER_ID = 0  # Manager is always worker (rank) zero under mpiexec
-VERBOSE = True # False
+VERBOSE = False
 STOP = -1
 
 
